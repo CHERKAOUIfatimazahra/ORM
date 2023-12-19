@@ -2,6 +2,10 @@
 
 require 'classes/crud.php';
 
+<<<<<<< HEAD
+=======
+// Example usage
+>>>>>>> f352bf3f132bc81b32b3ac1f0a493376811159fb
 $crudObj = new crud();
 
 // Create a user
@@ -56,6 +60,7 @@ if ($crudObj->executeQuery('users', 'delete', array('id' => $userIdToDelete))) {
 // Clean up
 unset($crudObj);
 
+<<<<<<< HEAD
 // Classe User
 class User {
     private $id;
@@ -74,3 +79,6 @@ class User {
         // Utilise l'ORM pour accomplir cette tâche
     }
 }
+=======
+?>
+>>>>>>> f352bf3f132bc81b32b3ac1f0a493376811159fb
